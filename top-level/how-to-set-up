@@ -6,4 +6,16 @@
 2. Connect to EC2 instance
 
 3. Clone repo
-  - run 'git clone '
+  - run 'git clone https://github.com/Fesor24/insecurity.git'
+
+4. Run the commands
+  - cd insecurity/top-level/top-level
+  - sh ./insecurity.sh
+  - cd /var/www
+  - ls -la
+  Confirm if the insecurity app is in directory
+  - sudo cp -r /var/www/insecurity /var/www/html
+
+5. Open http://<public-ip-address>/insecurity/login.php in browser
+
+6. If it does not open, go to the security group and expose port 80. Now refresh the page
