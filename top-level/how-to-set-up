@@ -3,4 +3,7 @@
   - Scroll down, click on Advanced details, scroll down to 'User data', paste the script from 'user-script' file
   - launch instance
 
-2. 
+2. Connect to EC2 instance
+
+3. Clone repo
+  - run 'git clone '
