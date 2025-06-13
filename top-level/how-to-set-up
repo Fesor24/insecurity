@@ -1,0 +1,6 @@
+1. Create EC2 instance
+  - AMI: Select Ubuntu
+  - Scroll down, click on Advanced details, scroll down to 'User data', paste the script from 'user-script' file
+  - launch instance
+
+2. 
